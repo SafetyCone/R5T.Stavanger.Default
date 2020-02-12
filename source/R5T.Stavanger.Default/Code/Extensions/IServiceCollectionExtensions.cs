@@ -22,7 +22,7 @@ namespace R5T.Stavanger.Default
         /// <summary>
         /// Adds the <see cref="ShortcutPathConventions"/> implementation of <see cref="IShortcutPathConventions"/> as a <see cref="ServiceLifetime.Singleton"/>.
         /// </summary>
-        public static ServiceAction<IShortcutPathConventions> AddDefaultShortcutPathConventionsAction(IServiceCollection services)
+        public static ServiceAction<IShortcutPathConventions> AddDefaultShortcutPathConventionsAction(this IServiceCollection services)
         {
             var serviceAction = new ServiceAction<IShortcutPathConventions>(() => services.AddDefaultShortcutPathConventions());
             return serviceAction;
