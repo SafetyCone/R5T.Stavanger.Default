@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Stavanger.Default
-{
-    public class ShortcutPathConventions : IShortcutPathConventions
+{[ServiceImplementationMarker]
+    public class ShortcutPathConventions : IShortcutPathConventions,IServiceImplementation
     {
         public const string LinkSuffixExtension = "lnk";
         public const string LinkSuffixExtensionSeparator = ".";

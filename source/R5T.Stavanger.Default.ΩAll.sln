@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Stavanger.Default.Const
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Stavanger.Default.Testing", "R5T.Stavanger.Default.Testing\R5T.Stavanger.Default.Testing.csproj", "{4A8C46C1-A745-4AD1-A8F9-84C369F0F5A1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{0AEB4E80-C65E-40A4-A495-367569562764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{5E762F02-2FF7-401A-B34B-77959C18888D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{4A8C46C1-A745-4AD1-A8F9-84C369F0F5A1}.Release|x64.Build.0 = Release|Any CPU
 		{4A8C46C1-A745-4AD1-A8F9-84C369F0F5A1}.Release|x86.ActiveCfg = Release|Any CPU
 		{4A8C46C1-A745-4AD1-A8F9-84C369F0F5A1}.Release|x86.Build.0 = Release|Any CPU
+		{5E762F02-2FF7-401A-B34B-77959C18888D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E762F02-2FF7-401A-B34B-77959C18888D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E762F02-2FF7-401A-B34B-77959C18888D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5E762F02-2FF7-401A-B34B-77959C18888D}.Debug|x64.Build.0 = Debug|Any CPU
+		{5E762F02-2FF7-401A-B34B-77959C18888D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E762F02-2FF7-401A-B34B-77959C18888D}.Debug|x86.Build.0 = Debug|Any CPU
+		{5E762F02-2FF7-401A-B34B-77959C18888D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E762F02-2FF7-401A-B34B-77959C18888D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E762F02-2FF7-401A-B34B-77959C18888D}.Release|x64.ActiveCfg = Release|Any CPU
+		{5E762F02-2FF7-401A-B34B-77959C18888D}.Release|x64.Build.0 = Release|Any CPU
+		{5E762F02-2FF7-401A-B34B-77959C18888D}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E762F02-2FF7-401A-B34B-77959C18888D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E762F02-2FF7-401A-B34B-77959C18888D} = {0AEB4E80-C65E-40A4-A495-367569562764}
 	EndGlobalSection
 EndGlobal
